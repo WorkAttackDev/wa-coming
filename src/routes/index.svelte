@@ -29,7 +29,7 @@
 				img: '/imgs/envelope.svg',
 				href: 'mailto:geral@workattackangola.com'
 			},
-			{ text: 'luanda, nova vida, rua Nº 70, prédio Nº 165', img: '/imgs/location.svg' }
+			{ text: 'Luanda, nova vida, rua nº 70, prédio nº 165', img: '/imgs/location.svg' }
 		],
 		extras: [
 			{
@@ -81,7 +81,8 @@
 	class="relative overflow-hidden layout-area grid gap-y-16 w-full min-h-screen bg-programming text-white p-8 md:p-16"
 >
 	<img
-		src="/imgs/pattern.png"
+		loading="eager"
+		src="https://ik.imagekit.io/workattack/tr:w-0.7/pattern_5k6J341Po.png?tr=bl-6"
 		alt="workattack pattern"
 		class="absolute inset-0 w-full h-full object-cover opacity-50 pointer-events-none z-0"
 	/>
@@ -99,14 +100,19 @@
 		<strong class="font-semibold text-gradient-design-animation mt-4">Nova Experiência</strong>
 	</h1>
 
-	<div class="relative wa-area w-full flex justify-center">
+	<picture class="relative wa-area w-full flex justify-center">
+		<source
+			srcset="https://ik.imagekit.io/workattack/tr:w-0.8,f-webp/00_LpBDgUZOwc.png"
+			type="image/webp"
+		/>
 		<img
 			transition:fly={{ duration: 500, y: 100 }}
-			src="/imgs/00.png"
+			loading="eager"
+			src="https://ik.imagekit.io/workattack/tr:w-0.6,pr-true/00_LpBDgUZOwc.png?tr=bl-6"
 			alt="workattack 3d art"
 			class="max-w-3xl w-full drop-shadow-glow object-contain md:max-w-4xl md:min-w-[40rem]"
 		/>
-	</div>
+	</picture>
 
 	<article class="relative info-area flex flex-col items-center text-secondary md:items-start">
 		<h3 class="text-3xl text-center font-semibold mb-8 md:text-left md:text-4xl">
