@@ -78,7 +78,7 @@
 	</span>
 </Modal>
 <main
-	class="relative overflow-hidden layout-area grid gap-y-16 w-full min-h-screen bg-programming text-white p-8 md:p-16"
+	class="relative overflow-hidden layout-area grid gap-y-16 w-full min-h-screen bg-programming text-white p-8 md:p-16 md:pb-0"
 >
 	<img
 		loading="eager"
@@ -100,19 +100,15 @@
 		<strong class="font-semibold text-gradient-design-animation mt-4">Nova Experiência</strong>
 	</h1>
 
-	<picture class="relative wa-area w-full flex justify-center">
-		<source
-			srcset="https://ik.imagekit.io/workattack/tr:w-0.8,f-webp/00_LpBDgUZOwc.png"
-			type="image/webp"
-		/>
+	<div class="relative wa-area w-full flex justify-center">
 		<img
 			transition:fly={{ duration: 500, y: 100 }}
 			loading="eager"
-			src="https://ik.imagekit.io/workattack/tr:w-0.6,pr-true/00_LpBDgUZOwc.png?tr=bl-6"
+			src="https://ik.imagekit.io/workattack/tr:w-0.6,pr-true/wa3D_JNHbkt-1lu.png?tr=bl-6"
 			alt="workattack 3d art"
 			class="max-w-3xl w-full drop-shadow-glow object-contain md:max-w-4xl md:min-w-[40rem]"
 		/>
-	</picture>
+	</div>
 
 	<article class="relative info-area flex flex-col items-center text-secondary md:items-start">
 		<h3 class="text-3xl text-center font-semibold mb-8 md:text-left md:text-4xl">
