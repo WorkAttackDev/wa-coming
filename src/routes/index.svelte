@@ -41,7 +41,7 @@
 		]
 	};
 
-	const realeseDate = DateTime.local(2021, 8, 20, 12, 0, 0);
+	const realeseDate = DateTime.local(2021, 8, 20, 16, 0, 0);
 
 	let timeLeft = realeseDate.diffNow('hours');
 
